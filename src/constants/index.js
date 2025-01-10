@@ -6,10 +6,6 @@ export const navLinks = [
         title: "Inicio",
     },
     {
-        id: "Nosotros",
-        title: "Nosotros",
-    },
-    {
         id: "Servicio",
         title: "Servicio",
     },
@@ -31,21 +27,21 @@ export const navLinks = [
 export const features = [
     {
         id: "feature-1",
-        icon: shield, // Icono relacionado con seguridad
+        icon: shield,
         title: "Seguridad Garantizada",
         content:
             "En LogiFrozen, aseguramos que tus productos lleguen en perfectas condiciones gracias a nuestros estándares de refrigeración y transporte.",
     },
     {
         id: "feature-2",
-        icon: star, // Icono relacionado con calidad y excelencia
+        icon: star,
         title: "Confiabilidad en Cada Envío",
         content:
             "Nuestra prioridad es brindarte un servicio puntual y eficiente, generando confianza en cada entrega.",
     },
     {
         id: "feature-3",
-        icon: send, // Icono relacionado con transporte y logística
+        icon: send,
         title: "Cobertura Estratégica",
         content:
             "LogiFrozen opera con rutas optimizadas para garantizar entregas rápidas y seguras, adaptadas a tus necesidades.",
@@ -56,28 +52,29 @@ export const feedback = [
     {
         id: "feedback-1",
         content:
-            "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-        name: "Herman Jensen",
-        title: "Founder & Leader",
+            "La puntualidad y la cordialidad del equipo de LogiFrozen nos han permitido mantener nuestros productos siempre frescos y en tiempo récord.",
+        name: "María López",
+        title: " Distribuidora Gourmet",
         img: people01,
     },
     {
         id: "feedback-2",
         content:
-            "Money makes your life easier. If you're lucky to have it, you're lucky.",
-        name: "Steve Mark",
-        title: "Founder & Leader",
+            "Gracias a LogiFrozen, nunca más tuvimos problemas de stock. Su compromiso con la calidad y los precios competitivos son inigualables.",
+        name: "Juan Pérez",
+        title: "Propietaria, Café Delicias",
         img: people02,
     },
     {
         id: "feedback-3",
         content:
-            "It is usually people in the money business, finance, and international trade that are really rich.",
-        name: "Kenn Gallagher",
-        title: "Founder & Leader",
+            "LogiFrozen se ha convertido en nuestro socio estratégico. Su profesionalismo y seguridad nos garantizan una logística sin complicaciones.",
+        name: "Carlos Gómez",
+        title: "Dueño, Panadería La Estrella",
         img: people03,
     },
-]
+];
+
 
 export const stats = [
     {

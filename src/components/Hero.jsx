@@ -13,7 +13,7 @@ function Hero() {
                     <img src={discount} alt="Icono de descuento" className="w-[32px] h-[32px]" />
                     <p className={`${styles.paragraph} ml-2`}>
                         <span className="text-white">10% </span>
-                        de descuento para <span className="text-white">clientes </span> nuevos
+                        Off <span className="text-white">clientes </span> nuevos
                     </p>
                 </div>
                 {/* Main Title */}
