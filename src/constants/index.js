@@ -31,24 +31,24 @@ export const navLinks = [
 export const features = [
     {
         id: "feature-1",
-        icon: star,
-        title: "Rewards",
+        icon: shield, // Icono relacionado con seguridad
+        title: "Seguridad Garantizada",
         content:
-            "The best credit cards offer some tantalizing combinations of promotions and prizes",
+            "En LogiFrozen, aseguramos que tus productos lleguen en perfectas condiciones gracias a nuestros estándares de refrigeración y transporte.",
     },
     {
         id: "feature-2",
-        icon: shield,
-        title: "100% Secured",
+        icon: star, // Icono relacionado con calidad y excelencia
+        title: "Confiabilidad en Cada Envío",
         content:
-            "We take proactive steps make sure your information and transactions are secure.",
+            "Nuestra prioridad es brindarte un servicio puntual y eficiente, generando confianza en cada entrega.",
     },
     {
         id: "feature-3",
-        icon: send,
-        title: "Balance Transfer",
+        icon: send, // Icono relacionado con transporte y logística
+        title: "Cobertura Estratégica",
         content:
-            "A balance transfer credit card can save you a lot of money in interest charges.",
+            "LogiFrozen opera con rutas optimizadas para garantizar entregas rápidas y seguras, adaptadas a tus necesidades.",
     },
 ];
 
@@ -77,25 +77,26 @@ export const feedback = [
         title: "Founder & Leader",
         img: people03,
     },
-];
+]
 
 export const stats = [
     {
         id: "stats-1",
-        title: "User Active",
-        value: "3800+",
+        title: "Clientes Satisfechos",
+        value: "150+",
     },
     {
         id: "stats-2",
-        title: "Trusted by Company",
-        value: "230+",
+        title: "Pedidos Entregados",
+        value: "12,000+",
     },
     {
         id: "stats-3",
-        title: "Transaction",
-        value: "$230M+",
+        title: "Años de Experiencia",
+        value: "5+",
     },
-];
+]
+
 
 export const footerLinks = [
     {

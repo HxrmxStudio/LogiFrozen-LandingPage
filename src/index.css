@@ -143,3 +143,33 @@
   transition: all 0.3s ease-in-out;
   z-index: 10;
 }
+.button {
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.button {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.button {
+  background: linear-gradient(90deg, #4CAF50, #2196F3);
+  background-size: 200% 200%;
+  animation: gradientMove 3s ease infinite;
+  transition: transform 0.3s ease;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+
+
+
