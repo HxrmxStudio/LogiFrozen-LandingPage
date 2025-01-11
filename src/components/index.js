@@ -11,6 +11,7 @@ import Hero from './Hero'
 import NavBar from './NavBar'
 import Stats from './Stats'
 import Testimonials from './Testimonials'
+import WhatsAppButton from './WhatsAppButton'
 
 export {
     Billing,
@@ -25,5 +26,6 @@ export {
     Hero,
     NavBar,
     Stats,
-    Testimonials
+    Testimonials,
+    WhatsAppButton
 }

@@ -97,65 +97,40 @@ export const stats = [
 
 export const footerLinks = [
     {
-        title: "Useful Links",
+        title: "Información Útil",
         links: [
             {
-                name: "Content",
-                link: "https://www.hoobank.com/content/",
+                name: "Sobre Nosotros",
+                link: "/nosotros",
             },
             {
-                name: "How it Works",
-                link: "https://www.hoobank.com/how-it-works/",
+                name: "Servicios",
+                link: "/servicios",
             },
             {
-                name: "Create",
-                link: "https://www.hoobank.com/create/",
+                name: "Precios",
+                link: "/precios",
             },
             {
-                name: "Explore",
-                link: "https://www.hoobank.com/explore/",
+                name: "Contacto",
+                link: "/contacto",
             },
             {
-                name: "Terms & Services",
-                link: "https://www.hoobank.com/terms-and-services/",
+                name: "Términos y Condiciones",
+                link: "/terminos-y-condiciones",
             },
         ],
     },
     {
-        title: "Community",
+        title: "Socios",
         links: [
             {
-                name: "Help Center",
-                link: "https://www.hoobank.com/help-center/",
+                name: "Nuestros Socios",
+                link: "/socios",
             },
             {
-                name: "Partners",
-                link: "https://www.hoobank.com/partners/",
-            },
-            {
-                name: "Suggestions",
-                link: "https://www.hoobank.com/suggestions/",
-            },
-            {
-                name: "Blog",
-                link: "https://www.hoobank.com/blog/",
-            },
-            {
-                name: "Newsletters",
-                link: "https://www.hoobank.com/newsletters/",
-            },
-        ],
-    },
-    {
-        title: "Partner",
-        links: [
-            {
-                name: "Our Partner",
-                link: "https://www.hoobank.com/our-partner/",
-            },
-            {
-                name: "Become a Partner",
-                link: "https://www.hoobank.com/become-a-partner/",
+                name: "Sé un Socio",
+                link: "/hazte-socio",
             },
         ],
     },
