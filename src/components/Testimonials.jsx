@@ -8,7 +8,7 @@ function Testimonials() {
     return (
         <motion.section
             id="Clientes"
-            className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}
+            className={`${styles.paddingY} ${styles.flexCenter} flex-col relative w-full `}
             variants={staggerContainer(0.2, 0.5)}
             initial="hidden"
             whileInView="show"

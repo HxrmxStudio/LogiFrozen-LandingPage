@@ -42,9 +42,7 @@ function Business() {
                     Tu confianza nos mueve, <br className="sm:block hidden" /> llevamos tu negocio con seguridad.
                 </h2>
                 <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-                    Con el servicio adecuado de logística, podés optimizar tu negocio asegurando entregas puntuales,
-                    reduciendo costos y ganando la confianza de tus clientes. LogiFrozen es tu aliado estratégico en
-                    transporte refrigerado.
+                    Con nuestro servicio logístico, podés optimizar tu negocio asegurando entregas puntuales, reduciendo los tiempos de entrega. ¿por qué? Porque, a comparación de los servicios de línea, una vez que retiramos, lo entregamos el mismo día. LogiFrozen es tu aliado estratégico en transporte refrigerado.
                 </p>
                 <Button styles="mt-10" />
 

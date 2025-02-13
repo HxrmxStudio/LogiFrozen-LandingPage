@@ -12,6 +12,7 @@ import NavBar from './NavBar'
 import Stats from './Stats'
 import Testimonials from './Testimonials'
 import WhatsAppButton from './WhatsAppButton'
+import ContactForm from './ContactForm'
 
 export {
     Billing,
@@ -27,5 +28,6 @@ export {
     NavBar,
     Stats,
     Testimonials,
-    WhatsAppButton
+    WhatsAppButton,
+    ContactForm
 }

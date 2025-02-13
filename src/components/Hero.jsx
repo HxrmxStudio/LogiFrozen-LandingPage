@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from '../style';
 import { robot, discount } from '../assets';
-import GetStarted from './GetStarted';
+import { GetStarted, ContactForm } from './index';
 
 function Hero() {
+    const [showContactForm, setShowContactForm] = useState(false);
+
+    const handleOpenForm = () => {
+        setShowContactForm(true);
+    };
+
+    const handleCloseForm = () => {
+        setShowContactForm(false);
+    };
+
+
     return (
         <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
             {/* Left Section */}
@@ -23,7 +34,7 @@ function Hero() {
                         <span className="text-gradient">Logísticas</span>{' '}
                     </h1>
                     <div className="ss:flex hidden md:mr-4 mr-0">
-                        <GetStarted />
+                        <GetStarted onClick={handleOpenForm} />
                     </div>
                 </div>
                 <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
@@ -31,9 +42,7 @@ function Hero() {
                 </h1>
                 {/* Description */}
                 <p className={`${styles.paragraph} max-w-[470px]`}>
-                    Especializados en el transporte de alimentos congelados y productos que requieren refrigeración
-                    precisa. Garantizamos la conservación de la calidad y propiedades de productos comestibles y
-                    farmacéuticos, adaptándonos a sus necesidades específicas de temperatura.
+                    Especializados en el transporte de alimentos congelados y productos que requieren refrigeración precisa. Garantizamos la conservación de calidad y propiedades de sus productos comestibles y farmacéuticos, adaptándonos a las necesidades específicas de temperatura.
                 </p>
             </div>
             {/* Right Section */}
@@ -45,8 +54,9 @@ function Hero() {
             </div>
             {/* Mobile GetStarted Button */}
             <div className={`ss:hidden ${styles.flexCenter}`}>
-                <GetStarted />
+                <GetStarted onClick={handleOpenForm} />
             </div>
+            {showContactForm && <ContactForm onClose={handleCloseForm} />}
         </section>
     );
 }

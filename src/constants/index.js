@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, send, shield, star } from "../assets";
 
 export const navLinks = [
     {
@@ -54,7 +54,7 @@ export const feedback = [
         content:
             "La puntualidad y la cordialidad del equipo de LogiFrozen nos han permitido mantener nuestros productos siempre frescos y en tiempo récord.",
         name: "María López",
-        title: " Distribuidora Gourmet",
+        title: " Monthelado",
         img: people01,
     },
     {
@@ -62,7 +62,7 @@ export const feedback = [
         content:
             "Gracias a LogiFrozen, nunca más tuvimos problemas de stock. Su compromiso con la calidad y los precios competitivos son inigualables.",
         name: "Juan Pérez",
-        title: "Propietaria, Café Delicias",
+        title: "Congelados sudamericanos",
         img: people02,
     },
     {
@@ -70,7 +70,7 @@ export const feedback = [
         content:
             "LogiFrozen se ha convertido en nuestro socio estratégico. Su profesionalismo y seguridad nos garantizan una logística sin complicaciones.",
         name: "Carlos Gómez",
-        title: "Dueño, Panadería La Estrella",
+        title: "Los nietos vegetales.",
         img: people03,
     },
 ];
@@ -159,21 +159,21 @@ export const socialMedia = [
     },
 ];
 
-export const clients = [
-    {
-        id: "client-1",
-        logo: airbnb,
-    },
-    {
-        id: "client-2",
-        logo: binance,
-    },
-    {
-        id: "client-3",
-        logo: coinbase,
-    },
-    {
-        id: "client-4",
-        logo: dropbox,
-    },
-];
+// export const clients = [
+//     {
+//         id: "client-1",
+//         logo: airbnb,
+//     },
+//     {
+//         id: "client-2",
+//         logo: binance,
+//     },
+//     {
+//         id: "client-3",
+//         logo: coinbase,
+//     },
+//     {
+//         id: "client-4",
+//         logo: dropbox,
+//     },
+// ];
